@@ -31,13 +31,12 @@ pipeline {
                 bat 'npx playwright test --project=Chrome'
             }
         }
-    }
 
-    stage('Publish Test Results') 
-    { 
-        steps 
-        { 
-            junit 'test-results/results.xml' 
-            archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true 
+        stage('Publish Test Results') {
+            steps {
+                junit 'test-results/results.xml'
+                archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
+            }
         }
+    }
 }
