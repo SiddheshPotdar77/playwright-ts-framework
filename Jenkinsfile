@@ -35,6 +35,7 @@ pipeline {
 
     post {
     always {
+        sleep(time: 5, unit: 'SECONDS')
         junit 'test-results/results.xml'
         archiveArtifacts artifacts: '**/playwright-report/**', fingerprint: true
         archiveArtifacts artifacts: '**/allure-results/**', fingerprint: true
