@@ -5,7 +5,9 @@ import { PageManager } from './Pagemanager'
 export class BasePage
 {
     constructor(protected pageManager:PageManager)
-    {}
+    {
+
+    }
 
     get page()
     {
@@ -27,6 +29,7 @@ export class BasePage
     {
         await locator.waitFor({state:'visible'})
         await locator.click();
+        logger.info("Click on URL")
     }
     
 }
