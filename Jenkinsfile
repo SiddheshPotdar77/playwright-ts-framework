@@ -28,18 +28,16 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test --project=Chrome --reporter=junit --output=test-results'
+                bat 'npx playwright test --project=Chrome'
             }
         }
     }
 
-    post {
-    always {
-        sleep(time: 5, unit: 'SECONDS')
-        junit 'test-results/results.xml'
-        archiveArtifacts artifacts: '**/playwright-report/**', fingerprint: true
-        archiveArtifacts artifacts: '**/allure-results/**', fingerprint: true
-        allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-    }
-}
+    stage('Publish Test Results') 
+    { 
+        steps 
+        { 
+            junit 'test-results/results.xml' 
+            archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true 
+        }
 }

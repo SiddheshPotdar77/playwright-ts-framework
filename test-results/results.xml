@@ -1,8 +1,8 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.498972000000002">
-<testsuite name="login.spec.ts" timestamp="2026-02-03T07:57:50.454Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="6.507" errors="0">
-<testcase name="Login Functionality › User Login with valid credentials" classname="login.spec.ts" time="6.507">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.32426">
+<testsuite name="login.spec.ts" timestamp="2026-02-03T07:58:55.047Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="14.432" errors="0">
+<testcase name="Login Functionality › User Login with valid credentials" classname="login.spec.ts" time="14.432">
 <system-out>
-<![CDATA[03/02/2026, 07:57:55 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
+<![CDATA[03/02/2026, 07:59:03 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
 
 [[ATTACHMENT|..\results\login-Login-Functionality-User-Login-with-valid-credentials-Chrome\test-finished-1.png]]
 ]]>
