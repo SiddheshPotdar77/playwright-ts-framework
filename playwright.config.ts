@@ -4,7 +4,7 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30000,
   outputDir: 'results',
-  reporter: [['list'], ['html'],['allure-playwright']],
+  reporter: [['list'], ['html'],['allure-playwright'],['junit', { outputFile: 'test-results/results.xml' }]],
   projects: [
     {
       name: 'Chrome',
