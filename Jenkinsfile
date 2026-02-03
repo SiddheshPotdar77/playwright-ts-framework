@@ -33,10 +33,13 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            junit 'test-results/**/*.xml'
-            archiveArtifacts artifacts: '**/playwright-report/**', fingerprint: true
+    post { 
+            always 
+            { 
+                junit 'test-results/**/*.xml' 
+                archiveArtifacts artifacts: '**/playwright-report/**', fingerprint: true 
+                archiveArtifacts artifacts: '**/allure-results/**', fingerprint: true 
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']] 
+            } 
         }
-    }
 }
