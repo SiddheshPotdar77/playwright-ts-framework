@@ -14,6 +14,12 @@ pipeline {
             }
         }
 
+        stage('Install Playwright Browsers') {
+            steps {
+                bat 'npx playwright install --with-deps'
+            }
+        }
+
         stage('Build') {
             steps {
                 bat 'npm run build'
@@ -22,7 +28,6 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                // Configure Playwright to output JUnit XML
                 bat 'npx playwright test --reporter=junit --output=test-results'
             }
         }
@@ -30,9 +35,7 @@ pipeline {
 
     post {
         always {
-            // Pick up JUnit XML results
             junit 'test-results/*.xml'
-            // Archive Playwright HTML report for later viewing
             archiveArtifacts artifacts: '**/playwright-report/**', fingerprint: true
         }
     }
