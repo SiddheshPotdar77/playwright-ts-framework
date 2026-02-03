@@ -28,14 +28,14 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test --reporter=junit --output=test-results'
+                bat 'npx playwright test --project=Chrome --reporter=junit --output=test-results'
             }
         }
     }
 
     post {
         always {
-            junit 'test-results/*.xml'
+            junit 'test-results/**/*.xml'
             archiveArtifacts artifacts: '**/playwright-report/**', fingerprint: true
         }
     }
