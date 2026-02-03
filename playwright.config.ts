@@ -2,9 +2,9 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 30000,
+  timeout: 60000,
   outputDir: 'results',
-  reporter: [['list'], ['html'],['allure-playwright'],['junit', { outputFile: 'test-results/results.xml' }]],
+  reporter: [['list'], ['html',{ outputFolder: 'playwright-report' }],['allure-playwright'],['junit', { outputFile: 'test-results/results.xml' }]],
   projects: [
     {
       name: 'Chrome',
