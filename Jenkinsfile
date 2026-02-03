@@ -10,26 +10,29 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
+                bat 'npm install'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'npm run build'
+                bat 'npm run build'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'npx playwright test'
+                // Configure Playwright to output JUnit XML
+                bat 'npx playwright test --reporter=junit --output=test-results'
             }
         }
     }
 
     post {
         always {
-            junit 'test-results/*.xml'   // configure Playwright to output JUnit XML
+            // Pick up JUnit XML results
+            junit 'test-results/*.xml'
+            // Archive Playwright HTML report for later viewing
             archiveArtifacts artifacts: '**/playwright-report/**', fingerprint: true
         }
     }
