@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "npm run clean && playwright test",
     "clean": "rimraf results"
   },
