@@ -28,13 +28,13 @@ pipeline {
 
 
         //Without Smoke & Sanity
-        /*stage('Run Tests') {
+        stage('Run Tests') {
             steps {
                 bat 'npx playwright test --project=Chrome'
             }
-        }*/
+        }
 
-        stage('Run Smoke Tests') 
+        /*stage('Run Smoke Tests') 
         { 
             steps
             { 
@@ -50,7 +50,7 @@ pipeline {
                 // Run only sanity tests 
                 bat 'npx playwright test --project=sanity' 
             }
-        }
+        }*/
 
         stage('Publish Test Results') {
             steps {
