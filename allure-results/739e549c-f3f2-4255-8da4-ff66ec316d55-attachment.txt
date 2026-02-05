@@ -1,0 +1,10 @@
+05/02/2026, 07:08:00 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/02/2026, 07:08:00 [INFO]: This is run before each test
+05/02/2026, 07:08:01 [INFO]: This is for input/entering fields
+05/02/2026, 07:08:01 [INFO]: Enter Username as Admin1
+05/02/2026, 07:08:01 [INFO]: This is for input/entering fields
+05/02/2026, 07:08:01 [INFO]: Enter Password as admin1234
+05/02/2026, 07:08:03 [INFO]: This is for clickable action
+05/02/2026, 07:08:03 [INFO]: Click on login button
+05/02/2026, 07:08:04 [INFO]: Sanity Test Case: Invalid User login verified
+05/02/2026, 07:08:04 [INFO]: After end suite

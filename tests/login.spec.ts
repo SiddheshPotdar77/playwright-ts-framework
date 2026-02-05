@@ -57,7 +57,9 @@ test.describe("Login Functionality",async()=>
         await loginPage.enterUserName(config.username1)
         await loginPage.enterPassword(config.password1)
         await loginPage.clickOnLogin();
-        await expect(pageManager.page.locator('.oxd-alert-content p')).toContainText('Invalid credentials'); 
+        await pageManager.page.waitForSelector('.oxd-alert-content'); 
+        await expect(pageManager.page.locator('.oxd-alert-content')) .toContainText('Invalid credentials', { timeout: 10000 });
+        //await expect(pageManager.page.locator('.oxd-alert-content p')).toContainText('Invalid credentials'); 
         logger.info("Sanity Test Case: Invalid User login verified");
     })
 })
