@@ -26,36 +26,31 @@ pipeline {
             }
         }
 
-
-        //Without Smoke & Sanity
-        stage('Run Tests') {
+        stage('Run Smoke Tests') {
             steps {
-                bat 'npx playwright test --project=Chrome'
+                // Run only smoke tests (tagged @smoke in your specs)
+                bat 'npx playwright test --project=smoke'
             }
         }
 
-        /*stage('Run Smoke Tests') 
-        { 
-            steps
-            { 
-                // Run only smoke tests 
-                bat 'npx playwright test --project=smoke' 
-            } 
-        } 
-        
-        stage('Run Sanity Tests')
-        { 
-            steps
-            { 
-                // Run only sanity tests 
-                bat 'npx playwright test --project=sanity' 
+        stage('Run Sanity Tests') {
+            steps {
+                // Run only sanity tests (tagged @sanity in your specs)
+                bat 'npx playwright test --project=sanity'
             }
-        }*/
+        }
 
         stage('Publish Test Results') {
             steps {
+                // Always publish reports, even if tests failed
                 junit 'test-results/results.xml'
                 archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
+            }
+            post {
+                always {
+                    junit 'test-results/results.xml'
+                    archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
+                }
             }
         }
     }
