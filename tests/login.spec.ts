@@ -49,7 +49,7 @@ test.describe("Login Functionality",async()=>
         await loginPage.enterPassword(config.password)
         await loginPage.clickOnLogin();
         await loginPage.verifyPageUrl(config.AfterloginUrl)
-        logger.info("Smoke Test Case: valid login verified");
+        logger.info("Smoke Test Case: valid User login verified");
     })
 
     test("Sanity:Login with Invalid credentials @sanity",async()=>
@@ -58,6 +58,6 @@ test.describe("Login Functionality",async()=>
         await loginPage.enterPassword(config.password1)
         await loginPage.clickOnLogin();
         await expect(pageManager.page.locator('.oxd-alert-content p')).toContainText('Invalid credentials'); 
-        logger.info("Sanity Test Case: Invalid login verified");
+        logger.info("Sanity Test Case: Invalid User login verified");
     })
 })
