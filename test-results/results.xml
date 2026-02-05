@@ -1,10 +1,20 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.32426">
-<testsuite name="login.spec.ts" timestamp="2026-02-03T07:58:55.047Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="14.432" errors="0">
-<testcase name="Login Functionality › User Login with valid credentials" classname="login.spec.ts" time="14.432">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="26.305876">
+<testsuite name="login.spec.ts" timestamp="2026-02-05T06:27:50.514Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="22.579" errors="0">
+<testcase name="Login Functionality › Sanity:Login with Invalid credentials" classname="login.spec.ts" time="22.579">
 <system-out>
-<![CDATA[03/02/2026, 07:59:03 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
+<![CDATA[05/02/2026, 06:27:53 [INFO]: [32mBefore start suite[39m
+05/02/2026, 06:28:07 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
+05/02/2026, 06:28:07 [INFO]: [32mThis is run before each test[39m
+05/02/2026, 06:28:10 [INFO]: [32mThis is for input/entering fields[39m
+05/02/2026, 06:28:10 [INFO]: [32mEnter Username as Admin1[39m
+05/02/2026, 06:28:10 [INFO]: [32mThis is for input/entering fields[39m
+05/02/2026, 06:28:10 [INFO]: [32mEnter Password as admin1234[39m
+05/02/2026, 06:28:13 [INFO]: [32mThis is for clickable action[39m
+05/02/2026, 06:28:13 [INFO]: [32mClick on login button[39m
+05/02/2026, 06:28:16 [INFO]: [32mSanity Test Case: Invalid login verified[39m
+05/02/2026, 06:28:16 [INFO]: [32mAfter end suite[39m
 
-[[ATTACHMENT|..\results\login-Login-Functionality-User-Login-with-valid-credentials-Chrome\test-finished-1.png]]
+[[ATTACHMENT|..\results\login-Login-Functionality--2f426-in-with-Invalid-credentials-Chrome\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

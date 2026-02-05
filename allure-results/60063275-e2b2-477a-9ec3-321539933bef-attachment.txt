@@ -1,0 +1,8 @@
+05/02/2026, 04:35:14 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/02/2026, 04:35:16 [INFO]: Working for Input fields
+05/02/2026, 04:35:16 [INFO]: Enter Username as Admin
+05/02/2026, 04:35:16 [INFO]: Working for Input fields
+05/02/2026, 04:35:16 [INFO]: Enter Password as admin123
+05/02/2026, 04:35:19 [INFO]: Click on URL
+05/02/2026, 04:35:19 [INFO]: Click on login button
+05/02/2026, 04:35:27 [INFO]: Current URL https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index

@@ -2,6 +2,7 @@ export const config=
 {
     baseUrl: "https://opensource-demo.orangehrmlive.com",
     loginUrl: "hhttps://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    AfterloginUrl:"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
     browserWidth: 1280, 
     browserHeight: 720, 
     username: "Admin", 

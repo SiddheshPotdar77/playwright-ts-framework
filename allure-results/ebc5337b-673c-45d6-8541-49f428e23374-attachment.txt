@@ -1,0 +1,11 @@
+05/02/2026, 06:07:33 [INFO]: Before start suite
+05/02/2026, 06:07:43 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/02/2026, 06:07:43 [INFO]: This is run before each test
+05/02/2026, 06:07:45 [INFO]: This is for input/entering fields
+05/02/2026, 06:07:45 [INFO]: Enter Username as Admin1
+05/02/2026, 06:07:45 [INFO]: This is for input/entering fields
+05/02/2026, 06:07:45 [INFO]: Enter Password as admin1234
+05/02/2026, 06:07:46 [INFO]: This is for clickable action
+05/02/2026, 06:07:46 [INFO]: Click on login button
+05/02/2026, 06:07:47 [INFO]: Sanity Test Cases
+05/02/2026, 06:08:48 [INFO]: After end suite

@@ -26,9 +26,29 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
+
+        //Without Smoke & Sanity
+        /*stage('Run Tests') {
             steps {
                 bat 'npx playwright test --project=Chrome'
+            }
+        }*/
+
+        stage('Run Smoke Tests') 
+        { 
+            steps
+            { 
+                // Run only smoke tests 
+                bat 'npx playwright test --project=smoke' 
+            } 
+        } 
+        
+        stage('Run Sanity Tests')
+        { 
+            steps
+            { 
+                // Run only sanity tests 
+                bat 'npx playwright test --project=sanity' 
             }
         }
 

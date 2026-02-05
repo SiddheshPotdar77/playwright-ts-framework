@@ -1,0 +1,16 @@
+05/02/2026, 06:00:26 [INFO]: Before start suite
+05/02/2026, 06:00:30 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+05/02/2026, 06:00:30 [INFO]: This is run before each test
+05/02/2026, 06:00:31 [INFO]: This is for input/entering fields
+05/02/2026, 06:00:31 [INFO]: Enter Username as Admin
+05/02/2026, 06:00:31 [INFO]: This is for input/entering fields
+05/02/2026, 06:00:31 [INFO]: Enter Password as admin123
+05/02/2026, 06:00:33 [INFO]: This is for clickable action
+05/02/2026, 06:00:33 [INFO]: Click on login button
+05/02/2026, 06:00:37 [INFO]: Current URL https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+05/02/2026, 06:00:37 [INFO]: Smoke Test Cases
+05/02/2026, 06:00:37 [INFO]: Clicking on user name option for see options
+05/02/2026, 06:00:37 [INFO]: This is for various options
+05/02/2026, 06:00:38 [INFO]: Clicking on logout option
+05/02/2026, 06:00:38 [INFO]: This is run after each test
+05/02/2026, 06:00:39 [INFO]: After end suite

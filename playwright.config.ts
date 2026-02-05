@@ -30,5 +30,7 @@ export default defineConfig({
       name: 'WebKit',
       use: { ...devices['Desktop Safari'] },
     },
+    { name: 'smoke', grep: /@smoke/, }, 
+    { name: 'sanity', grep: /@sanity/,},
   ],
 });
