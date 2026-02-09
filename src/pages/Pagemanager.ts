@@ -2,6 +2,7 @@ import { BasePage } from "./Basepage";
 import logger from "../logger/logger";
 import { Page } from "@playwright/test";
 import { LoginPage } from "./Loginpage";
+import { DashBoardPage } from "./Dashboard";
 
 export class PageManager
 {
@@ -29,6 +30,11 @@ export class PageManager
     createLoginPage():LoginPage
     {
         return new LoginPage(this)
+    }
+
+    createDashBoardPage():DashBoardPage
+    {
+        return new DashBoardPage(this)
     }
 
 }

@@ -1,41 +1,27 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="43.16142299999999">
-<testsuite name="login.spec.ts" timestamp="2026-02-05T07:07:22.296Z" hostname="Chrome" tests="2" failures="0" skipped="0" time="38.672" errors="0">
-<testcase name="Login Functionality › Smoke:Login with valid credentials @smoke" classname="login.spec.ts" time="34">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="66.72921099999999">
+<testsuite name="dashboard.spec.ts" timestamp="2026-02-09T06:50:46.381Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="62.836" errors="0">
+<testcase name="Verify Dashboard Functionality › Smoke:Verify Ttile of the dashboard @smoke" classname="dashboard.spec.ts" time="62.836">
 <system-out>
-<![CDATA[05/02/2026, 07:07:25 [INFO]: [32mBefore start suite[39m
-05/02/2026, 07:07:41 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
-05/02/2026, 07:07:41 [INFO]: [32mThis is run before each test[39m
-05/02/2026, 07:07:42 [INFO]: [32mThis is for input/entering fields[39m
-05/02/2026, 07:07:42 [INFO]: [32mEnter Username as Admin[39m
-05/02/2026, 07:07:42 [INFO]: [32mThis is for input/entering fields[39m
-05/02/2026, 07:07:42 [INFO]: [32mEnter Password as admin123[39m
-05/02/2026, 07:07:46 [INFO]: [32mThis is for clickable action[39m
-05/02/2026, 07:07:46 [INFO]: [32mClick on login button[39m
-05/02/2026, 07:07:57 [INFO]: [32mCurrent URL https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index[39m
-05/02/2026, 07:07:57 [INFO]: [32mSmoke Test Case: valid User login verified[39m
-05/02/2026, 07:07:57 [INFO]: [32mClicking on user name option for see options[39m
-05/02/2026, 07:07:57 [INFO]: [32mThis is for various options[39m
-05/02/2026, 07:07:59 [INFO]: [32mClicking on logout option[39m
-05/02/2026, 07:07:59 [INFO]: [32mThis is run after each test[39m
+<![CDATA[09/02/2026, 06:50:48 [INFO]: [32mBefore start suite[39m
+09/02/2026, 06:50:54 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
+09/02/2026, 06:50:54 [INFO]: [32mThis is run before each test[39m
+09/02/2026, 06:51:02 [INFO]: [32mThis is for input/entering fields[39m
+09/02/2026, 06:51:02 [INFO]: [32mEnter Username as Admin[39m
+09/02/2026, 06:51:02 [INFO]: [32mThis is for input/entering fields[39m
+09/02/2026, 06:51:02 [INFO]: [32mEnter Password as admin123[39m
+09/02/2026, 06:51:21 [INFO]: [32mThis is for clickable action[39m
+09/02/2026, 06:51:21 [INFO]: [32mClick on login button[39m
+09/02/2026, 06:51:24 [INFO]: [32mVerify Dashboard[39m
+09/02/2026, 06:51:41 [INFO]: [32mCurrent URL https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index[39m
+09/02/2026, 06:51:41 [INFO]: [32mVerify Dashboard URl[39m
+09/02/2026, 06:51:41 [INFO]: [32mSmoke Test Case:Verify title of the dashboard[39m
+09/02/2026, 06:51:41 [INFO]: [32mClicking on user name option for see options[39m
+09/02/2026, 06:51:41 [INFO]: [32mThis is for various options[39m
+09/02/2026, 06:51:52 [INFO]: [32mClicking on logout option[39m
+09/02/2026, 06:51:52 [INFO]: [32mThis is run after each test[39m
+09/02/2026, 06:51:52 [INFO]: [32mAfter end suite[39m
 
-[[ATTACHMENT|..\results\login-Login-Functionality--37402-ith-valid-credentials-smoke-Chrome\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Login Functionality › Sanity:Login with Invalid credentials @sanity" classname="login.spec.ts" time="4.672">
-<system-out>
-<![CDATA[05/02/2026, 07:08:00 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
-05/02/2026, 07:08:00 [INFO]: [32mThis is run before each test[39m
-05/02/2026, 07:08:01 [INFO]: [32mThis is for input/entering fields[39m
-05/02/2026, 07:08:01 [INFO]: [32mEnter Username as Admin1[39m
-05/02/2026, 07:08:01 [INFO]: [32mThis is for input/entering fields[39m
-05/02/2026, 07:08:01 [INFO]: [32mEnter Password as admin1234[39m
-05/02/2026, 07:08:03 [INFO]: [32mThis is for clickable action[39m
-05/02/2026, 07:08:03 [INFO]: [32mClick on login button[39m
-05/02/2026, 07:08:04 [INFO]: [32mSanity Test Case: Invalid User login verified[39m
-05/02/2026, 07:08:04 [INFO]: [32mAfter end suite[39m
-
-[[ATTACHMENT|..\results\login-Login-Functionality--b7651--Invalid-credentials-sanity-Chrome\test-finished-1.png]]
+[[ATTACHMENT|..\results\dashboard-Verify-Dashboard-cf1c8-tile-of-the-dashboard-smoke-Chrome\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

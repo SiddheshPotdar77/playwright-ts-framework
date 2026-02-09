@@ -1,0 +1,4 @@
+09/02/2026, 06:45:57 [INFO]: Before start suite
+09/02/2026, 06:46:11 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+09/02/2026, 06:46:11 [INFO]: This is run before each test
+09/02/2026, 06:46:21 [INFO]: After end suite
