@@ -1,0 +1,12 @@
+12/02/2026, 04:45:47 [INFO]: Before start suite
+12/02/2026, 04:46:03 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+12/02/2026, 04:46:03 [INFO]: This is run before each test
+12/02/2026, 04:46:08 [INFO]: This is for input/entering fields
+12/02/2026, 04:46:08 [INFO]: Enter Username as Admin
+12/02/2026, 04:46:08 [INFO]: This is for input/entering fields
+12/02/2026, 04:46:08 [INFO]: Enter Password as admin123
+12/02/2026, 04:46:19 [INFO]: This is for clickable action
+12/02/2026, 04:46:19 [INFO]: Click on login button
+12/02/2026, 04:46:31 [INFO]: Click on pim link
+12/02/2026, 04:46:40 [INFO]: Click on add button
+12/02/2026, 04:46:40 [INFO]: Smoke Test Case:Verify Users added sucessfully

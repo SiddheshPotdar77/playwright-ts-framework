@@ -1,0 +1,28 @@
+12/02/2026, 06:22:45 [INFO]: Before start suite
+12/02/2026, 06:22:50 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+12/02/2026, 06:22:51 [INFO]: This is for input/entering fields
+12/02/2026, 06:22:51 [INFO]: Enter Username as Admin
+12/02/2026, 06:22:51 [INFO]: This is for input/entering fields
+12/02/2026, 06:22:51 [INFO]: Enter Password as admin123
+12/02/2026, 06:22:53 [INFO]: This is for clickable action
+12/02/2026, 06:22:53 [INFO]: Click on login button
+12/02/2026, 06:22:53 [INFO]: This is run before each test
+12/02/2026, 06:22:57 [INFO]: Click on pim link
+12/02/2026, 06:23:00 [INFO]: Click on add employee
+12/02/2026, 06:23:01 [INFO]: This is for input/entering fields
+12/02/2026, 06:23:01 [INFO]: Enter first name as Siddhesh
+12/02/2026, 06:23:01 [INFO]: This is for input/entering fields
+12/02/2026, 06:23:01 [INFO]: Enter middle name as Rajendra
+12/02/2026, 06:23:01 [INFO]: This is for input/entering fields
+12/02/2026, 06:23:01 [INFO]: Enter last name as Potdar
+12/02/2026, 06:23:02 [INFO]: Added Siddhesh Rajendra Potdar successfully
+12/02/2026, 06:23:03 [INFO]: Click on add employee
+12/02/2026, 06:23:04 [INFO]: This is for input/entering fields
+12/02/2026, 06:23:04 [INFO]: Enter first name as Sushant
+12/02/2026, 06:23:04 [INFO]: This is for input/entering fields
+12/02/2026, 06:23:04 [INFO]: Enter middle name as Bhagvan
+12/02/2026, 06:23:04 [INFO]: This is for input/entering fields
+12/02/2026, 06:23:04 [INFO]: Enter last name as Koyande
+12/02/2026, 06:23:05 [INFO]: Added Sushant Bhagvan Koyande successfully
+12/02/2026, 06:23:06 [INFO]: Click on add employee
+12/02/2026, 06:23:06 [INFO]: After end suite

@@ -1,0 +1,22 @@
+12/02/2026, 05:44:48 [INFO]: Before start suite
+12/02/2026, 05:44:55 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+12/02/2026, 05:44:59 [INFO]: This is for input/entering fields
+12/02/2026, 05:44:59 [INFO]: Enter Username as Admin
+12/02/2026, 05:44:59 [INFO]: This is for input/entering fields
+12/02/2026, 05:44:59 [INFO]: Enter Password as admin123
+12/02/2026, 05:45:07 [INFO]: This is for clickable action
+12/02/2026, 05:45:07 [INFO]: Click on login button
+12/02/2026, 05:45:07 [INFO]: This is run before each test
+12/02/2026, 05:45:18 [INFO]: Click on pim link
+12/02/2026, 05:45:25 [INFO]: Click on add employee
+12/02/2026, 05:45:27 [INFO]: This is for input/entering fields
+12/02/2026, 05:45:27 [INFO]: Enter first name as Siddhesh
+12/02/2026, 05:45:27 [INFO]: This is for input/entering fields
+12/02/2026, 05:45:27 [INFO]: Enter middle name as Rajendra
+12/02/2026, 05:45:27 [INFO]: This is for input/entering fields
+12/02/2026, 05:45:27 [INFO]: Enter last name as Potdar
+12/02/2026, 05:45:48 [INFO]: Clicking on user name option for see options
+12/02/2026, 05:45:48 [INFO]: This is for various options
+12/02/2026, 05:45:51 [INFO]: Clicking on logout option
+12/02/2026, 05:45:51 [INFO]: This is run after each test
+12/02/2026, 05:45:51 [INFO]: After end suite

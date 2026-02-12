@@ -3,6 +3,7 @@ import logger from "../logger/logger";
 import { Page } from "@playwright/test";
 import { LoginPage } from "./Loginpage";
 import { DashBoardPage } from "./Dashboard";
+import {PIMPage} from './PIMpage'
 
 export class PageManager
 {
@@ -35,6 +36,11 @@ export class PageManager
     createDashBoardPage():DashBoardPage
     {
         return new DashBoardPage(this)
+    }
+
+    createPIMPage():PIMPage
+    {
+        return new PIMPage(this)
     }
 
 }

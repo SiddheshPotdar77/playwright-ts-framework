@@ -1,0 +1,7 @@
+12/02/2026, 04:46:46 [INFO]: Accessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+12/02/2026, 04:46:46 [INFO]: This is run before each test
+12/02/2026, 04:46:56 [INFO]: Clicking on user name option for see options
+12/02/2026, 04:46:56 [INFO]: This is for various options
+12/02/2026, 04:47:04 [INFO]: Clicking on logout option
+12/02/2026, 04:47:04 [INFO]: This is run after each test
+12/02/2026, 04:47:05 [INFO]: After end suite

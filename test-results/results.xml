@@ -1,27 +1,37 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="66.72921099999999">
-<testsuite name="dashboard.spec.ts" timestamp="2026-02-09T06:50:46.381Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="62.836" errors="0">
-<testcase name="Verify Dashboard Functionality › Smoke:Verify Ttile of the dashboard @smoke" classname="dashboard.spec.ts" time="62.836">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="28.503508">
+<testsuite name="pim.spec.ts" timestamp="2026-02-12T06:22:42.458Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="20.315" errors="0">
+<testcase name="Verify PIM Functionality › Smoke: Add multiple users @smoke" classname="pim.spec.ts" time="20.315">
 <system-out>
-<![CDATA[09/02/2026, 06:50:48 [INFO]: [32mBefore start suite[39m
-09/02/2026, 06:50:54 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
-09/02/2026, 06:50:54 [INFO]: [32mThis is run before each test[39m
-09/02/2026, 06:51:02 [INFO]: [32mThis is for input/entering fields[39m
-09/02/2026, 06:51:02 [INFO]: [32mEnter Username as Admin[39m
-09/02/2026, 06:51:02 [INFO]: [32mThis is for input/entering fields[39m
-09/02/2026, 06:51:02 [INFO]: [32mEnter Password as admin123[39m
-09/02/2026, 06:51:21 [INFO]: [32mThis is for clickable action[39m
-09/02/2026, 06:51:21 [INFO]: [32mClick on login button[39m
-09/02/2026, 06:51:24 [INFO]: [32mVerify Dashboard[39m
-09/02/2026, 06:51:41 [INFO]: [32mCurrent URL https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index[39m
-09/02/2026, 06:51:41 [INFO]: [32mVerify Dashboard URl[39m
-09/02/2026, 06:51:41 [INFO]: [32mSmoke Test Case:Verify title of the dashboard[39m
-09/02/2026, 06:51:41 [INFO]: [32mClicking on user name option for see options[39m
-09/02/2026, 06:51:41 [INFO]: [32mThis is for various options[39m
-09/02/2026, 06:51:52 [INFO]: [32mClicking on logout option[39m
-09/02/2026, 06:51:52 [INFO]: [32mThis is run after each test[39m
-09/02/2026, 06:51:52 [INFO]: [32mAfter end suite[39m
+<![CDATA[12/02/2026, 06:22:45 [INFO]: [32mBefore start suite[39m
+12/02/2026, 06:22:50 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
+12/02/2026, 06:22:51 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:22:51 [INFO]: [32mEnter Username as Admin[39m
+12/02/2026, 06:22:51 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:22:51 [INFO]: [32mEnter Password as admin123[39m
+12/02/2026, 06:22:53 [INFO]: [32mThis is for clickable action[39m
+12/02/2026, 06:22:53 [INFO]: [32mClick on login button[39m
+12/02/2026, 06:22:53 [INFO]: [32mThis is run before each test[39m
+12/02/2026, 06:22:57 [INFO]: [32mClick on pim link[39m
+12/02/2026, 06:23:00 [INFO]: [32mClick on add employee[39m
+12/02/2026, 06:23:01 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:23:01 [INFO]: [32mEnter first name as Siddhesh[39m
+12/02/2026, 06:23:01 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:23:01 [INFO]: [32mEnter middle name as Rajendra[39m
+12/02/2026, 06:23:01 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:23:01 [INFO]: [32mEnter last name as Potdar[39m
+12/02/2026, 06:23:02 [INFO]: [32mAdded Siddhesh Rajendra Potdar successfully[39m
+12/02/2026, 06:23:03 [INFO]: [32mClick on add employee[39m
+12/02/2026, 06:23:04 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:23:04 [INFO]: [32mEnter first name as Sushant[39m
+12/02/2026, 06:23:04 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:23:04 [INFO]: [32mEnter middle name as Bhagvan[39m
+12/02/2026, 06:23:04 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:23:04 [INFO]: [32mEnter last name as Koyande[39m
+12/02/2026, 06:23:05 [INFO]: [32mAdded Sushant Bhagvan Koyande successfully[39m
+12/02/2026, 06:23:06 [INFO]: [32mClick on add employee[39m
+12/02/2026, 06:23:06 [INFO]: [32mAfter end suite[39m
 
-[[ATTACHMENT|..\results\dashboard-Verify-Dashboard-cf1c8-tile-of-the-dashboard-smoke-Chrome\test-finished-1.png]]
+[[ATTACHMENT|..\results\pim-Verify-PIM-Functionality-Smoke-Add-multiple-users-smoke-Chrome\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

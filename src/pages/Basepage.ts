@@ -29,7 +29,9 @@ export class BasePage
 
     public async typeTextByRole(fieldName: string, text: string): Promise<void> 
     { 
-        await this.page.getByRole('textbox', { name: fieldName }).fill(text, { timeout: 10000 }); 
+        const locator=await this.page.getByRole('textbox', { name: fieldName })
+        await locator.waitFor({state:'visible',timeout:10000})
+        await locator.fill(text); 
         logger.info("This is for input/entering fields")
     }
 
@@ -39,4 +41,20 @@ export class BasePage
         await locator.click();
         logger.info("This is for clickable action")
     }
+
+    public async typeTextByLabel(labelText: string, text: string): Promise<void> 
+    { 
+        const locator = this.page.getByLabel(labelText); 
+        await locator.waitFor({ state: 'visible' }); 
+        await locator.fill(text); 
+        logger.info(`Filled field with label '${labelText}' with text '${text}'`); 
+    }
+
+    public async typeText(fieldSelector: string, text: string): Promise<void> 
+    { 
+        const locator = this.page.locator(fieldSelector); 
+        await locator.waitFor({ state: 'visible', timeout: 10000 }); 
+        await locator.fill(text); logger.info(`Filled field '${fieldSelector}' with text '${text}'`); 
+    }
+
 }
