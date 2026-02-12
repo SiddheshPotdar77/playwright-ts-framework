@@ -1,35 +1,38 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="28.503508">
-<testsuite name="pim.spec.ts" timestamp="2026-02-12T06:22:42.458Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="20.315" errors="0">
-<testcase name="Verify PIM Functionality › Smoke: Add multiple users @smoke" classname="pim.spec.ts" time="20.315">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="74.97270900000001">
+<testsuite name="pim.spec.ts" timestamp="2026-02-12T06:30:41.108Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="68.231" errors="0">
+<testcase name="Verify PIM Functionality › Smoke: Add multiple users @smoke" classname="pim.spec.ts" time="68.231">
 <system-out>
-<![CDATA[12/02/2026, 06:22:45 [INFO]: [32mBefore start suite[39m
-12/02/2026, 06:22:50 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
-12/02/2026, 06:22:51 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:22:51 [INFO]: [32mEnter Username as Admin[39m
-12/02/2026, 06:22:51 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:22:51 [INFO]: [32mEnter Password as admin123[39m
-12/02/2026, 06:22:53 [INFO]: [32mThis is for clickable action[39m
-12/02/2026, 06:22:53 [INFO]: [32mClick on login button[39m
-12/02/2026, 06:22:53 [INFO]: [32mThis is run before each test[39m
-12/02/2026, 06:22:57 [INFO]: [32mClick on pim link[39m
-12/02/2026, 06:23:00 [INFO]: [32mClick on add employee[39m
-12/02/2026, 06:23:01 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:23:01 [INFO]: [32mEnter first name as Siddhesh[39m
-12/02/2026, 06:23:01 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:23:01 [INFO]: [32mEnter middle name as Rajendra[39m
-12/02/2026, 06:23:01 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:23:01 [INFO]: [32mEnter last name as Potdar[39m
-12/02/2026, 06:23:02 [INFO]: [32mAdded Siddhesh Rajendra Potdar successfully[39m
-12/02/2026, 06:23:03 [INFO]: [32mClick on add employee[39m
-12/02/2026, 06:23:04 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:23:04 [INFO]: [32mEnter first name as Sushant[39m
-12/02/2026, 06:23:04 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:23:04 [INFO]: [32mEnter middle name as Bhagvan[39m
-12/02/2026, 06:23:04 [INFO]: [32mThis is for input/entering fields[39m
-12/02/2026, 06:23:04 [INFO]: [32mEnter last name as Koyande[39m
-12/02/2026, 06:23:05 [INFO]: [32mAdded Sushant Bhagvan Koyande successfully[39m
-12/02/2026, 06:23:06 [INFO]: [32mClick on add employee[39m
-12/02/2026, 06:23:06 [INFO]: [32mAfter end suite[39m
+<![CDATA[12/02/2026, 06:30:45 [INFO]: [32mBefore start suite[39m
+12/02/2026, 06:30:51 [INFO]: [32mAccessing url:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login[39m
+12/02/2026, 06:30:55 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:30:55 [INFO]: [32mEnter Username as Admin[39m
+12/02/2026, 06:30:55 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:30:55 [INFO]: [32mEnter Password as admin123[39m
+12/02/2026, 06:30:55 [INFO]: [32mThis is for clickable action[39m
+12/02/2026, 06:30:55 [INFO]: [32mClick on login button[39m
+12/02/2026, 06:30:55 [INFO]: [32mLogged in before each test[39m
+12/02/2026, 06:31:12 [INFO]: [32mClick on pim link[39m
+12/02/2026, 06:31:17 [INFO]: [32mClick on add employee[39m
+12/02/2026, 06:31:21 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:31:21 [INFO]: [32mEnter first name as Siddhesh[39m
+12/02/2026, 06:31:21 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:31:21 [INFO]: [32mEnter middle name as Rajendra[39m
+12/02/2026, 06:31:21 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:31:21 [INFO]: [32mEnter last name as Potdar[39m
+12/02/2026, 06:31:27 [INFO]: [32mAdded Siddhesh Rajendra Potdar successfully[39m
+12/02/2026, 06:31:32 [INFO]: [32mClick on add employee[39m
+12/02/2026, 06:31:36 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:31:36 [INFO]: [32mEnter first name as Sushant[39m
+12/02/2026, 06:31:36 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:31:36 [INFO]: [32mEnter middle name as Bhagvan[39m
+12/02/2026, 06:31:36 [INFO]: [32mThis is for input/entering fields[39m
+12/02/2026, 06:31:36 [INFO]: [32mEnter last name as Koyande[39m
+12/02/2026, 06:31:41 [INFO]: [32mAdded Sushant Bhagvan Koyande successfully[39m
+12/02/2026, 06:31:42 [INFO]: [32mClicking on user name option for see options[39m
+12/02/2026, 06:31:42 [INFO]: [32mThis is for various options[39m
+12/02/2026, 06:31:54 [INFO]: [32mClicking on logout option[39m
+12/02/2026, 06:31:54 [INFO]: [32mLogged out after test[39m
+12/02/2026, 06:31:54 [INFO]: [32mAfter end suite[39m
 
 [[ATTACHMENT|..\results\pim-Verify-PIM-Functionality-Smoke-Add-multiple-users-smoke-Chrome\test-finished-1.png]]
 ]]>
